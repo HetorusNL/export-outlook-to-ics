@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.rulers": [120],
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "editor.formatOnSave": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "pkief.material-icon-theme",
+      "esbenp.prettier-vscode",
+      "demcon.uscope",
+      "ms-python.black-formatter"
+    ]
+  }
+}

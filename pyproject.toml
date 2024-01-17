@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "export-outlook-to-ics"
+version = "0.1.0"
+description = "Outlook ICS exporter, for sharing free/busy information with your other calendars and optionally scp the calendar file to a server / another machine."
+authors = ["Tim Klein Nijenhuis <tim@hetorus.nl>", "Tom Smeets <tom@tsmeets.nl>"]
+license = "MIT License, Copyright (c) 2024 Tim Klein Nijenhuis <tim@hetorus.nl>"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pywin32 = "^306"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 119
