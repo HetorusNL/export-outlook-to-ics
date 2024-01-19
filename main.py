@@ -38,7 +38,7 @@ def export_outlook_calendar_to_ics(ics_file_path: str):
     exporter = folder.GetCalendarExporter()
     exporter.CalendarDetail = olFreeBusyAndSubject
     exporter.IncludeAttachments = False
-    exporter.IncludePrivateDetails = False
+    exporter.IncludePrivateDetails = True
     exporter.IncludeWholeCalendar = True
     exporter.SaveAsICal(ics_file_path)
 
