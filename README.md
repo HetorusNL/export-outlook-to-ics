@@ -25,6 +25,13 @@ Run the following:
 poetry run python main.py
 ```
 
+To run this repeatedly every x seconds, run:
+
+```bash
+poetry run python main.py loop  # runs every 900 seconds
+poetry run python main.py loop 123  # runs every 123 seconds, substitute 123 for any integer value
+```
+
 ## License
 
 MIT License, Copyright (c) 2024 Tim Klein Nijenhuis <tim@hetorus.nl>
